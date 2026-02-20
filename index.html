@@ -28,10 +28,10 @@
                     <li><i class="fa fa-github">&nbsp;&nbsp;<a href="https://github.com/negararj">Github</a></i></li>
                 </ul>
 
-                <h4 class="left_title toggle" onclick="toggleSection('skills-list', 'arrow1')">
+                <h4 class="left_title toggle" role="button" aria-expanded="false" onclick="toggleSection('skills-list', 'arrow1')">
                     <span id="arrow1" class="arrow">&#9654;</span>Skills
                 </h4>
-                <ul id="skills-list">
+                <ul id="skills-list" class="collapsible">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
@@ -39,19 +39,18 @@
                     <li>python</li>
                     <li>C#</li>
                 </ul>
-
-                <h4 class="left_title toggle" onclick="toggleSection('languages-list', 'arrow2')">
+                <h4 class="left_title toggle" role="button" aria-expanded="false" onclick="toggleSection('languages-list', 'arrow2')">
                     <span id="arrow2" class="arrow">&#9654;</span>Languages
                 </h4>
-                <ul id="languages-list">
+                <ul id="languages-list" class="collapsible">
                     <li>English</li>
                     <li>Persian</li>
                 </ul>
 
-                <h4 class="left_title toggle" onclick="toggleSection('hobbies-list', 'arrow3')">
+                <h4 class="left_title toggle" role="button" aria-expanded="false" onclick="toggleSection('hobbies-list', 'arrow3')">
                     <span id="arrow3" class="arrow">&#9654;</span>Hobbies
                 </h4>
-                <ul id="hobbies-list">
+                <ul id="hobbies-list" class="collapsible">
                     <li>Chess</li>
                     <li>Violin</li>
                     <li>Swimming</li>

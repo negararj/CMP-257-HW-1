@@ -150,7 +150,10 @@ a:hover{
 #top-right-btn:hover {
     background-color: #186ba3;
 }
-
+.collapsible {
+    display: none;
+    padding-left: 1.5em;
+}
 .toggle:hover{
     color: rgb(240, 236, 155);
 }
