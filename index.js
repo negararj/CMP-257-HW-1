@@ -1,4 +1,3 @@
-// mode = "light";
 function changeMode(){
     const body = document.body;
     const btn = document.getElementById("top-right-btn");
