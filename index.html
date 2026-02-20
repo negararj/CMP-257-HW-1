@@ -9,9 +9,10 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="imgs/icon.ico">
+    <script src="index.js"></script>
 </head>
 
-<body>
+<body id="body">
     <div class="Container">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-12 left_side_bar">
@@ -27,8 +28,10 @@
                     <li><i class="fa fa-github">&nbsp;&nbsp;<a href="https://github.com/negararj">Github</a></i></li>
                 </ul>
 
-                <h4 class="left_title">Skills</h4>
-                <ul>
+                <h4 class="left_title toggle" onclick="toggleSection('skills-list', 'arrow1')">
+                    <span id="arrow1" class="arrow">&#9654;</span>Skills
+                </h4>
+                <ul id="skills-list">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
@@ -37,14 +40,18 @@
                     <li>C#</li>
                 </ul>
 
-                <h4 class="left_title">Languages</h4>
-                <ul>
+                <h4 class="left_title toggle" onclick="toggleSection('languages-list', 'arrow2')">
+                    <span id="arrow2" class="arrow">&#9654;</span>Languages
+                </h4>
+                <ul id="languages-list">
                     <li>English</li>
                     <li>Persian</li>
                 </ul>
 
-                <h4 class="left_title">Hobbies</h4>
-                <ul>
+                <h4 class="left_title toggle" onclick="toggleSection('hobbies-list', 'arrow3')">
+                    <span id="arrow3" class="arrow">&#9654;</span>Hobbies
+                </h4>
+                <ul id="hobbies-list">
                     <li>Chess</li>
                     <li>Violin</li>
                     <li>Swimming</li>
@@ -55,7 +62,7 @@
             </div>
             <div class="col-lg-9 col-md-8 col-sm-12">
                 <div class="row">
-                    <div class="col-lg-6 col-md-4 col-sm-12">
+                    <div class="col-lg-5 col-md-4 col-sm-12">
                         <div class="main_content">
                             <h4 class="section-head">Education
                                 <hr class="inline-hr">
@@ -83,7 +90,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-4 col-sm-12">
+                    <div class="col-lg-5 col-md-4 col-sm-12">
                         <div class="main_content">
                             <h4 class="section-head">Projects
                                 <hr class="inline-hr">
@@ -103,7 +110,7 @@
                                     <tr>
                                         <td>CMP 257</td>
                                         <td>Homework</td>
-                                        <td><a href="">Portfolio</a></td>
+                                        <td><a href="https://github.com/negararj/CMP-257-HW-1">Portfolio</a></td>
                                     </tr>
                                     <tr>
                                         <td>Persnoal</td>
@@ -111,15 +118,15 @@
                                         <td><a href="https://github.com/negararj/PacMan">Pac-man Game</a></td>
                                     </tr>
                                     <tr>
+                                        <td>Personal</td>
                                         <td>Hackathon</td>
-                                        <td>Odoo Hackathon</td>
-                                        <td><a href="https://github.com/negararj/Odoo_Hackathon">Pac-man Game</a></td>
+                                        <td><a href="https://github.com/negararj/Odoo_Hackathon">Odoo Hackathon</a></td>
                                     </tr>
                                 </table>
                             </nav>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
                         <div class="main_content">
                             <h4 class="section-head">Work Experience
                                 <hr class="inline-hr">
@@ -140,10 +147,31 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="main_content">
+                            <h4 class="section-head">Honors and Awards
+                                <hr class="inline-hr">
+                            </h4>
+                            <ul class = "list">
+                                <li>
+                                    <p>Bronze Medalin INOI <br>
+                                        (Iran National Olympiad in Informatics)</p>
+                                </li>
+                                <li>
+                                    <p>Eighth Place in the 2022 ICPC Asia Tehran Regional</p>
+                                </li>
+                                <li>
+                                    <p>Gold Medal in PYPT <br>
+                                    (Persian Young Physics Tournomants)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <button id="top-right-btn" class="action-btn" onclick="changeMode();">Dark mode</button>
 </body>
 
 </html>
