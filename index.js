@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
         body.classList.toggle("darkMode");
         if (body.classList.contains("darkMode")) {
             btn.innerHTML = "Light Mode";
-            btn.style.backgroundColor = "rgb(244, 244, 247)";
-            btn.style.color = "rgb(8, 2, 41)";
+            // btn.style.backgroundColor = "rgb(244, 244, 247)";
+            // btn.style.color = "rgb(8, 2, 41)";
         } else {
             btn.innerHTML = "Dark Mode";
-            btn.style.backgroundColor = "rgb(3, 0, 48)";
-            btn.style.color = "rgb(239, 239, 242)";
+            // btn.style.backgroundColor = "rgb(3, 0, 48)";
+            // btn.style.color = "rgb(239, 239, 242)";
         }
     });
 });
