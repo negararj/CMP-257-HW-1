@@ -1,19 +1,19 @@
-function changeMode(){
-    const body = document.body;
+document.addEventListener("DOMContentLoaded", function () {
     const btn = document.getElementById("top-right-btn");
-
-    body.classList.toggle("darkMode");
-
-    if (body.classList.contains("darkMode")) {
-        btn.innerHTML = "Light Mode";
-        btn.style.backgroundColor = "rgb(244, 244, 247)";
-        btn.style.color = "rgb(8, 2, 41)";
-    } else {
-        btn.innerHTML = "Dark Mode";
-        btn.style.backgroundColor = "rgb(3, 0, 48)";
-        btn.style.color = "rgb(239, 239, 242)";
-    }
-}
+    const body = document.body;
+    btn.addEventListener("click", function () {
+        body.classList.toggle("darkMode");
+        if (body.classList.contains("darkMode")) {
+            btn.innerHTML = "Light Mode";
+            btn.style.backgroundColor = "rgb(244, 244, 247)";
+            btn.style.color = "rgb(8, 2, 41)";
+        } else {
+            btn.innerHTML = "Dark Mode";
+            btn.style.backgroundColor = "rgb(3, 0, 48)";
+            btn.style.color = "rgb(239, 239, 242)";
+        }
+    });
+});
 
 function toggleSection(listID, arrowID){
     const list = document.getElementById(listID);

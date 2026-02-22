@@ -15,21 +15,26 @@
 <body id="body">
     <div class="Container">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-12 left_side_bar">
-                <img alt="Headshot of Negar Arj, Computer Science Student"
-                 src="imgs/photo.jpeg" id="photo">
-                <p>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+            <aside class="left_side_bar">
+                <img alt="Headshot of Negar Arj, Computer Science Student" src="imgs/photo.jpeg" id="photo">
                 <h3 id="name">Negar Arj</h3>
                 <h4 class="left_title">Contact</h4>
 
-                <ul id="myList">
-                    <li><i class="fa fa-phone">&nbsp;&nbsp; +971502408304</i></li>
-                    <li><i class="fa fa-envelope">&nbsp;&nbsp;<a href="mailto:g00104887@aus.edu">g00104887@aus.edu</a></i></li>
-                    <li><i class="fa fa-linkedin">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/negar-arj/">Linkedin</a></i></li>
-                    <li><i class="fa fa-github">&nbsp;&nbsp;<a href="https://github.com/negararj">Github</a></i></li>
-                </ul>
+                <section>
+                    <ul id="myList">
+                        <li><i class="fa fa-phone">&nbsp;&nbsp; +971502408304</i></li>
+                        <li><i class="fa fa-envelope">&nbsp;&nbsp;<a
+                                    href="mailto:g00104887@aus.edu">g00104887@aus.edu</a></i></li>
+                        <li><i class="fa fa-linkedin">&nbsp;&nbsp;<a
+                                    href="https://www.linkedin.com/in/negar-arj/">Linkedin</a></i></li>
+                        <li><i class="fa fa-github">&nbsp;&nbsp;<a href="https://github.com/negararj">Github</a></i>
+                        </li>
+                    </ul>
+                </section>
 
-                <h4 class="left_title toggle" role="button" aria-expanded="false" onclick="toggleSection('skills-list', 'arrow1')">
+                <h4 class="left_title toggle" role="button" aria-expanded="false"
+                    onclick="toggleSection('skills-list', 'arrow1')">
                     <span id="arrow1" class="arrow">&#9654;</span>Skills
                 </h4>
                 <ul id="skills-list" class="collapsible">
@@ -40,7 +45,8 @@
                     <li>python</li>
                     <li>C#</li>
                 </ul>
-                <h4 class="left_title toggle" role="button" aria-expanded="false" onclick="toggleSection('languages-list', 'arrow2')">
+                <h4 class="left_title toggle" role="button" aria-expanded="false"
+                    onclick="toggleSection('languages-list', 'arrow2')">
                     <span id="arrow2" class="arrow">&#9654;</span>Languages
                 </h4>
                 <ul id="languages-list" class="collapsible">
@@ -48,7 +54,8 @@
                     <li>Persian</li>
                 </ul>
 
-                <h4 class="left_title toggle" role="button" aria-expanded="false" onclick="toggleSection('hobbies-list', 'arrow3')">
+                <h4 class="left_title toggle" role="button" aria-expanded="false"
+                    onclick="toggleSection('hobbies-list', 'arrow3')">
                     <span id="arrow3" class="arrow">&#9654;</span>Hobbies
                 </h4>
                 <ul id="hobbies-list" class="collapsible">
@@ -56,13 +63,11 @@
                     <li>Violin</li>
                     <li>Swimming</li>
                 </ul>
-
-                </p>
-
+            </aside>
             </div>
             <div class="col-lg-9 col-md-8 col-sm-12">
                 <div class="row">
-                    <div class="col-lg-5 col-md-4 col-sm-12">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
                         <div class="main_content">
                             <h4 class="section-head">Education
                                 <hr class="inline-hr">
@@ -90,7 +95,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-4 col-sm-12">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
                         <div class="main_content">
                             <h4 class="section-head">Projects
                                 <hr class="inline-hr">
@@ -105,7 +110,8 @@
                                     <tr>
                                         <td>CMP 257</td>
                                         <td>Lab</td>
-                                        <td><a href="https://github.com/negararj/CMP-257-Lab">Club Managing Portal</a></td>
+                                        <td><a href="https://github.com/negararj/CMP-257-Lab">Club Managing Portal</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>CMP 257</td>
@@ -152,7 +158,7 @@
                             <h4 class="section-head">Honors and Awards
                                 <hr class="inline-hr">
                             </h4>
-                            <ul class = "list">
+                            <ul class="list">
                                 <li>
                                     <p>Bronze Medalin INOI <br>
                                         (Iran National Olympiad in Informatics)</p>
@@ -162,7 +168,7 @@
                                 </li>
                                 <li>
                                     <p>Gold Medal in PYPT <br>
-                                    (Persian Young Physics Tournomants)</p>
+                                        (Persian Young Physics Tournomants)</p>
                                 </li>
                             </ul>
                         </div>
@@ -171,7 +177,9 @@
             </div>
         </div>
     </div>
-    <button id="top-right-btn" class="action-btn" onclick="changeMode();">Dark mode</button>
+    <section>
+        <button id="top-right-btn" class="action-btn">Dark mode</button>
+    </section>
 </body>
 
 </html>
