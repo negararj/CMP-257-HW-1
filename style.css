@@ -216,10 +216,10 @@ body.darkMode .toggle:hover{
         padding-left: 2rem;
     }
     .nav-links a{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .nav-brand{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -228,7 +228,7 @@ body.darkMode .toggle:hover{
         height: 120vh;
     }
     .nav-links a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .nav-brand{
         font-size: 1rem;
