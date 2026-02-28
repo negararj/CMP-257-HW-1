@@ -76,7 +76,7 @@ body.darkMode .left_side_bar a{
 
 #myList{
     list-style: none; 
-    padding-left: 20px; 
+    padding-left: 12px; 
     gap: 10px;
 }
 
@@ -100,7 +100,7 @@ body.darkMode p{
     color: rgb(252, 253, 236);
 }
 p{
-    font-size: smaller;
+    font-size: 20px;
     color: rgb(42, 40, 55);
 }
 
@@ -132,7 +132,7 @@ a:hover{
 }
 
 .list{
-    font-size: large;
+    font-size: 18px;
 }
 
 #top-right-btn {
@@ -233,4 +233,8 @@ body.darkMode .toggle:hover{
     .nav-brand{
         font-size: 1rem;
     }
+}
+
+h6{
+    font-size: 20px;
 }
